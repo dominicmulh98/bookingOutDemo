@@ -10,7 +10,7 @@
         }
     </style>
     <!-- Include Salesforce Lightning Out library -->
-    <script src="https://jace--jacepc.sandbox.my.site.com/lightningout/lightning/lightningOut.js"></script>
+    <script src="https://jace--jacepc.sandbox.my.site.com/s/lightning/lightningOut.js"></script> <!-- Added /s -->
 </head>
 <body>
 
@@ -21,7 +21,7 @@
         // Define variables for Lightning Out setup
         const appName = 'c:bookingWrapper'; // The name of your Lightning Out app
         const componentName = 'c:bookingContainer'; // The LWC component you want to render
-        const lightningEndpoint = 'https://jace--jacepc.sandbox.my.site.com/lightningout'; // Salesforce Lightning endpoint
+        const lightningEndpoint = 'https://jace--jacepc.sandbox.my.site.com/s'; // Salesforce Lightning endpoint (added /s)
         const targetElement = document.querySelector("[data-lightning-out]"); // The container for the component
         const componentAttributes = {}; // Attributes to set on the component (empty for now)
 
